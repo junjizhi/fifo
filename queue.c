@@ -72,7 +72,8 @@ void enqueue(Queue *Q, QueueElement element)
     }
 }
 
-int main()
+/*
+int test()
 {
     int max = 20;
     Queue *testQueue = initQueue(max);
@@ -89,4 +90,9 @@ int main()
     dequeue(testQueue);
     printf("Front element is %d\n", front(testQueue));
     printf("Last element is %d\n",tail(testQueue));
+}
+*/
+
+int main(){
+  return 0;
 }

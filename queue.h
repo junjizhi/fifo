@@ -6,7 +6,7 @@
 /* by default, QueueElement is int
  Usage: #define QueueElement <TYPE> */
 #ifndef QueueElement
-#define QueueElement int
+#define QueueElement void*
 #endif
 
 typedef struct{
@@ -17,8 +17,7 @@ typedef struct{
 } Queue;
 
 Queue * initQueue(int max);
-QueueElement front(Queue *Q);	/* get the front element. It does not get removed 
-				 from the queue */
+QueueElement front(Queue *Q);	
 QueueElement tail(Queue* Q);
 void dequeue(Queue *Q);
 void enqueue(Queue *Q, QueueElement element);

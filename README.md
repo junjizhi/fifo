@@ -27,7 +27,7 @@ A first-in-first-out(FIFO) queue implemented in C, based on the linux kernel lin
   
   However, the usage is a bit complicated because 
   - it has certain assumptions about how to use the data structure, e.g., list_for_each_entry(tmp, &frame_queue->list, list). tmp needs to be the struct type contains the list member declaration. 
-  - it needs to use the API calls to manipulate the data struct. That is, you can memorize a bunch of functions, e.g.,  list_for_each_entry, HASH_FIND_INT(), etc. 
+  - it needs to use the API calls to manipulate the data struct. That is, you need to memorize a bunch of functions, e.g.,  list_for_each_entry, HASH_FIND_INT(), etc. 
 
 ## Credits
    list.h is copied from Kulesh Shanmugasundaram's site: 

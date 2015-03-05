@@ -2,12 +2,18 @@
 A first-in-first-out(FIFO) queue implemented in C, based on the linux kernel linked list. It is a practice of how to use list_head data structure, etc. 
 
 ## Usage 
-   #define QueueElement <TYPE>
+   #define QueueElement TYPE
+
    Queue* q = initQueue(20);
+
    QueueElement e1,e2; 
+
    /* init e1, e2*/ 
+
    enqueue(q,e1);
+
    enqueue(q,e2);
+
    dequeue(q);
 
 ## Credits

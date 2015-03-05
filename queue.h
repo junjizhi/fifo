@@ -19,6 +19,7 @@ typedef struct{
 Queue * initQueue(int max);
 QueueElement front(Queue *Q);	/* get the front element. It does not get removed 
 				 from the queue */
+QueueElement tail(Queue* Q);
 void dequeue(Queue *Q);
 void enqueue(Queue *Q, QueueElement element);
 
